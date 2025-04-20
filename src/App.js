@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css';  // Import CSS file
+import Home from './pages/Home'; // Example of Home page
+import Books from './pages/Books'; // Example of Books list page
+import AddBook from './pages/AddBook'; // Example of Add Book page
+import Login from './pages/Login';
+
+import {
+  BrowserRouter, 
+  Routes,
+  Route,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/books/add" element={<AddBook />} />
+        <Route path='/login' element={<Login/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
+export default App;  // Exporting App as default
 
-export default App;
+
+
