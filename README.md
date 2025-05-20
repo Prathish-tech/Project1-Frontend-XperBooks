@@ -48,30 +48,42 @@ project1-frontend-xperbooks/
 │   └── index.js
 │
 ├── package.json
-└── README.md```
-
-
----
-
-## 🧑‍💻 Getting Started
-
-This project was bootstrapped with [Create React App](https://create-react-app.dev).
-
-### Prerequisites
-
-- Node.js and npm installed on your machine
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/project1-frontend-xperbooks.git
-cd project1-frontend-xperbooks
-npm install
+└── README.md
 ```
-Run the Development Server
-bash
-Copy
-Edit
-npm start
-Open http://localhost:3000 to view it in your browser.
+⚙️ Setup Instructions
+1. Clone the Repository
+```
+   git clone https://github.com/your-username/XperBooks-frontend.git
+   cd XperBooks-frontend
+```
+2. Install Dependencies
+```
+   npm install
+```
+3. Create .env File
+Configure your backend URL:
+```
+   REACT_APP_API_BASE_URL=http://localhost:8000/api
+```
+4. Start the Development Server
+```
+   npm start
+```
+The app will be available at http://localhost:3000.
 
+🧪 Future Enhancements
+
+   🔍 Search and filter books
+
+   ⏳ Pagination and sorting
+
+   📊 Dashboard analytics
+
+   🧑‍💻 Authentication and user roles
+
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+📝 License
+This project is open-source and available under the MIT License.
+   
