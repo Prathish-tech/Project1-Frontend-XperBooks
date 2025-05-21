@@ -29,25 +29,30 @@
 
 ## 📁 Folder Structure
 ```
-project1-frontend-xperbooks/
+XperBooks-frontend/
 ├── public/
-│   └── index.html
+│ └── index.html
 │
 ├── src/
-│   ├── components/
-│   │   ├── BookForm.jsx
-│   │   └── BookItem.jsx
-│   │
-│   ├── pages/
-│   │   └── Home.jsx
-│   │
-│   ├── styles/
-│   │   └── app.css
-│   │
-│   ├── App.jsx
-│   └── index.js
+│ ├── api/
+│ │ └── bookService.js # Axios API service
+│ │
+│ ├── components/
+│ │ └── Navbar.jsx # Navigation bar component
+│ │
+│ ├── pages/
+│ │ ├── AddBook.jsx # Add/Edit book form page
+│ │ ├── Books.jsx # List all books
+│ │ ├── Home.jsx # Home or landing page
+│ │ └── Login.jsx # (Planned) Login page
+│ │
+│ ├── App.js # Root component
+│ ├── App.css # Global styles
+│ └── index.js # Entry point
 │
+├── pro1img.jpg, pro2img.jpg... # Assets (project images)
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 ⚙️ Setup Instructions
