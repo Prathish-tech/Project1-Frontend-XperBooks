@@ -71,19 +71,30 @@ Configure your backend URL:
 ```
 The app will be available at http://localhost:3000.
 
-🧪 Future Enhancements
+## 🧪 Future Enhancements
 
-   🔍 Search and filter books
+- 🔍 **Search and filter books**  
+  Add search functionality and filters to easily find specific books.
 
-   ⏳ Pagination and sorting
+- ⏳ **Pagination and sorting**  
+  Improve performance and usability for large datasets.
 
-   📊 Dashboard analytics
+- 📊 **Dashboard analytics**  
+  Visual representation of book statistics and usage patterns.
 
-   🧑‍💻 Authentication and user roles
+- 🧑‍💻 **Authentication and user roles**  
+  Secure access with login functionality and role-based permissions.
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+---
 
-📝 License
-This project is open-source and available under the MIT License.
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.
+
    
