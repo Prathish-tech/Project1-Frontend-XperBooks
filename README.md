@@ -101,5 +101,18 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 📝 License
 
 This project is open-source and available under the **MIT License**.
+```yaml
+---
+
+### ✅ How to Use
+
+1. Save the above content as `README.md` in your **backend project root folder**.
+2. Run:
+
+```bash
+git add README.md
+git commit -m "Add backend README"
+git push
+```
 
    
