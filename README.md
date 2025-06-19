@@ -23,7 +23,7 @@
 | Create React App| Project setup & tooling           |
 | CSS             | Styling and layout                |
 | Axios (planned) | API requests (Django backend)     |
-| React Router    | (If routing is used in future)    |
+| React Router    |  Client-side routing              |
 
 ---
 
